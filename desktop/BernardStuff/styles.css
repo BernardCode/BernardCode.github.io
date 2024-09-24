@@ -1,0 +1,51 @@
+body {
+    background-color: #fddf9a;
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: verdana;
+}
+
+img {
+    align-self:center;
+    width:600px;
+    height:200px;
+    margin-top: -10px;
+}
+#boba-system {
+    size:100px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #fa9a46;
+    color: brown;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    align-self: center;
+    font-family: comic sans ms;
+    font-size: xx-large;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+    font-family: comic sans ms;
+    text-align: center;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
